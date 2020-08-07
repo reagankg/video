@@ -1,0 +1,51 @@
+body {
+  margin-top: 105px; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem; }
+
+  #pic {
+    margin-top: 60px;
+    margin-left: 50px;
+  }
+
+
+#showcase {
+  position: relative;
+  background: url("../img/bible-53753_1920.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  min-height: 600px; }
+
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid; }
+
+#authors img {
+  margin-top: -50px; }
+#authors .card:hover {
+  background: #3292a6;
+  color: #fff; }
+#authors .fab {
+  color: #fff; }
+
+
+#play {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 4rem; }
+
+  .mb-resp {
+    margin-bottom: 1rem; } }
